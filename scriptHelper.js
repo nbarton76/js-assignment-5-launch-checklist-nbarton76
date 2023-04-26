@@ -13,12 +13,11 @@ function addDestinationInfo(
   div.innerHTML = `
   
 Mission Destination
- 
+
   <ol>
-   <li>Name: ${name}</li>
-   <li>Diameter: ${diameter}</li>
-   <li>Star: ${star}</li>
-   
+  <li>Name: ${name}</li>
+  <li>Diameter: ${diameter}</li>
+  <li>Star: ${star}</li> 
 Distance from Earth:  
 ${distance}</li> 
 Number of Moons:  

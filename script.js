@@ -2,7 +2,7 @@ window.addEventListener("load", function () {
     let listedPlanets;
     let listedPlanetsResponse = myFetch();
 listedPlanetsResponse.then(function (result) {
-    listedPlanets = result;
+    let listedPlanets = result;
     }).then(function () {
     let chosenPlanet = pickPlanet(listedPlanets);
     addDestinationInfo(
